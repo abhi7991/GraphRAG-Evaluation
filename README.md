@@ -15,7 +15,7 @@ For this particular analysis I have taken 3 distinct metrics.
 
 ## Evaluation Framework: Ragas
 
-Ragas is a framework that helps you evaluate your Retrieval-Augmented Generation (RAG) pipelines. RAG denotes a class of LLM applications that use external data to augment the LLM’s context. There are existing tools and frameworks that help you build these pipelines, but evaluating and quantifying your pipeline performance can be challenging. This is where Ragas (RAG Assessment) comes in.
+[Ragas](https://docs.ragas.io/en/stable/index.html) is a framework that helps you evaluate your Retrieval-Augmented Generation (RAG) pipelines. RAG denotes a class of LLM applications that use external data to augment the LLM’s context. There are existing tools and frameworks that help you build these pipelines, but evaluating and quantifying your pipeline performance can be challenging. This is where Ragas (RAG Assessment) comes in.
 
 Ragas provides a structured approach to evaluating RAG models by offering a variety of metrics that assess different aspects of the model’s performance. By using Ragas, you can gain a detailed understanding of how well your RAG pipeline is performing and identify areas for improvement.
 
@@ -66,3 +66,11 @@ score = evaluate(
     run_config=RunConfig(max_retries=2)
 )
 print(score)
+
+```
+
+## Visualisation
+
+![alt text](Images/plot1.png)
+![alt text](Images/plot2.png)
+![alt text](Images/plot3.png)
