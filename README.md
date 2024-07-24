@@ -4,6 +4,9 @@ This repository contains methodologies to evaluate a Retrieval-Augmented Generat
 
 For this particular analysis I have taken 3 distinct metrics.
 
+## [Overview](Evaluation_Report.pdf)
+
+## [Detailed Code](Evaluating_MovieMatch.ipynb)
 
 ### Answer Metrics
 - **Answer Relevancy**: Evaluates the relevance of the generated answers to the query.
