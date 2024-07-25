@@ -4,6 +4,8 @@ This repository contains methodologies to evaluate a Retrieval-Augmented Generat
 
 For this particular analysis I have taken 3 distinct metrics.
 
+## [How to Evaluate RAG Applications - Tutorial](https://youtu.be/3mA-MVMkOiM)
+
 ## [Overview](Evaluation_Report.pdf)
 
 ## [Detailed Code](Evaluating_MovieMatch.ipynb)
